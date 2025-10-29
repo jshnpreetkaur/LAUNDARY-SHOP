@@ -15,3 +15,24 @@ alert("Thank you very much for contacting us. Our team will soon reach back to y
 
 document.getElementById("contactform").reset();
 });
+document.getElementById("confirmBtn").addEventListener("click", function(event){
+    const selectedType= document.querySelector('input[name="type"]:checked');
+    const scheduleInput= document.getElementById("scheduleTime").value;
+    const result= document.getElementById("scheduleResult");
+
+    if(!selectedType|| !scheduleInput){
+        result.textContent="You need to select your choice and also need to select the time.";
+        result.style.color="red";
+        return;
+    }
+
+    const scheduleDate= new Date(scheduleInput);
+    const now= new Date();
+
+    if(scheduleDate<= now){
+        result.textContent="Invalid Date. Choose future dates";
+        result.style.color="red";
+        return;
+    }
+    result.textContent=`Your ${selectedType.value} confirmed and scheduled on ${scheduleDate.toLocaleString()}.`;
+})

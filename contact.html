@@ -5,6 +5,16 @@
         <link href="contact.css" rel="stylesheet">
     </head>
     <body>
+        <h1>PICKUP AND DELIVERY SCHEDULER:</h1>
+        <section id="scheduler">
+            <p>Schedule your pickup or delivery time here:</p>
+            <label><input type="radio" name="type" value="delivery">Delivery</label><br>
+            <label><input type="radio" name="type" value="pickup">Pickup</label><br>
+            <label for="pickup">Select Pickup Date and Time:</label>
+            <input type="datetime-local" id="scheduleTime" required><br>
+            <button id="confirmBtn">Confirm Your Order</button>
+            <p id="scheduleResult"></p>
+        </section>
         <h1>CONTACT US:</h1>
         <p style="text-align: center;">HURRY UP!!!WE DELIVER FOR FREE!!! LIMITED TIME OFFER!</p>
         <p>Email: cleanxlaundry@gmail.com</p>
@@ -27,8 +37,9 @@
             <input type="email" id="email" name="email" placeholder="Enter your valid email here" style="width:200px"><br><br>
             <label for="message">Message:</label>
             <textarea id="message" name="message" rows="3" placeholder="Enter your message here" style="width:200px"></textarea><br><br>
-            <button type="submit" style="width:100px; height:30px">Submit</button>
+            <button type="submit" style="width:100px; height:40px">Submit</button>
         </form>
+       
         <script src="contact.js"></script>
     </body>
 </html>

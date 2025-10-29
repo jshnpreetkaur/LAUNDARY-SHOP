@@ -1,19 +1,139 @@
-body{
-    background-color: #0056A6;
-    color:#F0F8FF;
-    font-size: 20px;
+/* General Page Styling */
+body {
+    background: linear-gradient(135deg, #0056A6, #007ACC);
+    color: #F0F8FF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
 }
-h1{
-    color: black;
+
+/* Headings */
+h1 {
+    color: #ffeb99;
+    text-align: center;
+    margin-top: 40px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Section Box for Scheduler */
+#scheduler {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    width: 60%;
+    margin: 30px auto;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Scheduler Inputs */
+#scheduler label {
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+#scheduler input[type="radio"],
+#scheduler input[type="datetime-local"] {
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+}
+
+#scheduleTime {
+    width: 250px;
+    padding: 8px;
+}
+
+/* Confirmation Button */
+#confirmBtn {
+    background-color: #ffcc00;
+    color: #003366;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#confirmBtn:hover {
+    background-color: #ffd633;
+    box-shadow: 0 0 10px #fff;
+}
+
+#scheduleResult {
+    margin-top: 15px;
+    font-style: italic;
+}
+
+/* Contact Info Section */
+p {
+    text-align: center;
+    margin: 10px auto;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Contact Form */
+form {
+    width: 50%;
+    margin: 30px auto;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    text-align: left;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+form input:focus,
+form textarea:focus {
+    box-shadow: 0 0 8px #ffcc00;
+}
+
+/* Submit Button */
+button {
+    display: block;
+    width: 100%;
+    color: white;
+    background-color: #003366;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
     text-align: center;
 }
-form{
-    text-align: center;
-}
-button{
-    color:white;
-    background-color: black;
-}
-button:hover{
-    box-shadow: 0 4px 15px white;
+
+button:hover {
+    background-color: #ffcc00;
+    color: #003366;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.6);
 }

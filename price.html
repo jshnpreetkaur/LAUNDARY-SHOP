@@ -6,6 +6,30 @@
     </head>
     <body>
         <h1>OUR PRICES:</h1>
+        <p style="text-align: center; font-size: 20px;">PRICE CALCULATOR:</p>
+        <p style="text-align: center; color:#ffeb99;">You can use our price calculator if you want to calculate and compare the price for the services you want:</p>
+        <p>Choose the service you want:</p>
+        <div>
+            <label><input type="radio" name="service" value="washing">Washing</label><br>
+            <label><input type="radio" name="service" value="ironing">Ironing</label><br>
+            <label><input type="radio" name="service" value="washandiron">Washing and Ironing(Both)</label><br>
+            <label><input type="radio" name="service" value="drycleaning">Dry Cleaning</label><br>
+            <label><input type="radio" name="service" value="package">Complete Package</label>
+        </div>
+        <br>
+        <p>Select the duration of service:</p>
+        <div>
+            <label><input type="radio" name="duration" value="oneTime">One Time</label><br>
+            <label><input type="radio" name="duration" value="weekly">Weekly</label><br>
+            <label><input type="radio" name="duration" value="monthly">Monthly</label><br>
+            <label><input type="radio" name="duration" value="annual">Annual</label>
+        </div>
+        <br>
+        <label for="weight">Enter the weight(kg or items):</label>
+        <input type="number" id="weight" min="1">
+        <br>
+        <button id="calculateBtn">Calculate Price</button>
+        <p id="result"></p>
         <p style="font-size: 25px; text-align: center;">Our Prices and services:</p>
         <table class="table">
             <tr>
@@ -58,6 +82,8 @@
                 <td>$1300</td>
             </tr>
         </table>
+        
+        <script src="price.js"></script>
 
     </body>
 </html>
