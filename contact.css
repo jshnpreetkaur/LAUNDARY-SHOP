@@ -1,4 +1,3 @@
-/* General Page Styling */
 body {
     background: linear-gradient(135deg, #0056A6, #007ACC);
     color: #F0F8FF;
@@ -9,7 +8,6 @@ body {
     line-height: 1.6;
 }
 
-/* Headings */
 h1 {
     color: #ffeb99;
     text-align: center;
@@ -17,7 +15,6 @@ h1 {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-/* Section Box for Scheduler */
 #scheduler {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 15px;
@@ -28,7 +25,6 @@ h1 {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Scheduler Inputs */
 #scheduler label {
     font-weight: bold;
     display: inline-block;
@@ -48,7 +44,6 @@ h1 {
     padding: 8px;
 }
 
-/* Confirmation Button */
 #confirmBtn {
     background-color: #ffcc00;
     color: #003366;
@@ -71,7 +66,6 @@ h1 {
     font-style: italic;
 }
 
-/* Contact Info Section */
 p {
     text-align: center;
     margin: 10px auto;
@@ -84,7 +78,6 @@ iframe {
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
 }
 
-/* Contact Form */
 form {
     width: 50%;
     margin: 30px auto;
@@ -116,7 +109,6 @@ form textarea:focus {
     box-shadow: 0 0 8px #ffcc00;
 }
 
-/* Submit Button */
 button {
     display: block;
     width: 100%;

@@ -28,10 +28,8 @@ function changeHeroSlide() {
   heroTitle.textContent = slide.title;
   heroTagline.textContent = slide.tagline;
 
-  // move to next slide
   currentSlide = (currentSlide + 1) % heroSlides.length;
 }
 
-// run first and then rotate every 4 seconds
 changeHeroSlide();
 setInterval(changeHeroSlide, 4000);

@@ -1,4 +1,3 @@
-/* ===== GENERAL STYLES ===== */
 body {
     background: linear-gradient(135deg, #0056A6, #007ACC);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -17,7 +16,6 @@ h1 {
     text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
 }
 
-/* ===== TABLE STYLING ===== */
 .table {
     margin: 40px auto;
     width: 90%;
@@ -53,7 +51,6 @@ h1 {
     transition: all 0.3s ease-in-out;
 }
 
-/* ===== PRICE CALCULATOR SECTION ===== */
 div {
     margin: 20px auto;
     max-width: 600px;
@@ -100,7 +97,6 @@ button:hover {
     box-shadow: 0 8px 25px rgba(0,0,0,0.5);
 }
 
-/* ===== RESULT STYLING ===== */
 #result {
     margin-top: 20px;
     text-align: center;
@@ -109,7 +105,6 @@ button:hover {
     color: #ffeb99;
 }
 
-/* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
     .table, div {
         width: 95%;

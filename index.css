@@ -1,4 +1,3 @@
-/* ===== GENERAL PAGE STYLE ===== */
 body {
     background: linear-gradient(135deg, #0056A6, #007ACC);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -9,7 +8,6 @@ body {
     line-height: 1.6;
 }
 
-/* ===== NAVIGATION BAR ===== */
 nav {
     display: flex;
     justify-content: center;
@@ -36,9 +34,8 @@ nav a:hover {
     transform: translateY(-2px);
 }
 
-/* ===== HERO SECTION ===== */
 .hero {
-    background-image: url('laundry-banner.jpg'); /* 🧺 replace with your actual image */
+    background-image: url('laundry-banner.jpg');
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -83,7 +80,6 @@ nav a:hover {
     to { transform: translateY(0); opacity: 1; }
 }
 
-/* ===== INTRO SECTION ===== */
 .intro {
     display: flex;
     justify-content: space-between;
@@ -119,13 +115,11 @@ nav a:hover {
     animation: heartbeat 2.5s infinite ease-in-out;
 }
 
-/* Heartbeat animation for image */
 @keyframes heartbeat {
     0%, 100% { transform: scale(1); }
     50% { transform: scale(1.07); }
 }
 
-/* ===== HEADINGS ===== */
 h1 {
     text-align: center;
     color: #ffeb99;
@@ -137,7 +131,6 @@ h2 {
     margin-top: 20px;
 }
 
-/* ===== PROMISE SECTION ===== */
 p {
     max-width: 900px;
     margin: 0 auto 20px auto;
@@ -148,7 +141,6 @@ strong {
     color: #ffeb99;
 }
 
-/* ===== BUTTON (OPTIONAL HERO BUTTON) ===== */
 .hero-btn {
     background-color: #ffcc00;
     color: #003366;
