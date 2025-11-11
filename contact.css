@@ -155,6 +155,7 @@ button:hover {
     color: #003366;
     box-shadow: 0 4px 15px rgba(255, 255, 255, 0.6);
 }
+
 footer {
     background: #001a33;
     color: #f0f8ff;
@@ -190,7 +191,7 @@ footer {
     width: 30px;
     height: 30px;
     object-fit: contain;
-    filter: invert(1); 
+    filter: invert(1);
   }
   
   .footer-bottom {

@@ -184,17 +184,14 @@ p {
         padding: 15px;
     }
 }
+
 footer {
     background: #001a33;
     color: #f0f8ff;
     text-align: center;
     padding: 40px 20px;
+    margin-top: 50px;
     border-top: 2px solid #ffcc00;
-    min-height: 180px; /* keeps footer height consistent */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
   
   .footer-container {
@@ -223,7 +220,7 @@ footer {
     width: 30px;
     height: 30px;
     object-fit: contain;
-    filter: invert(1); 
+    filter: invert(1);
   }
   
   .footer-bottom {
